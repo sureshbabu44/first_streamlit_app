@@ -46,7 +46,7 @@ con = snowflake.connector.connect(
  database="pc_rivery_db",
 
  schema="PUBLIC"
- role = "pc_rivery_role"
+
 
 )
 my_cur = my_cnx.cursor()
